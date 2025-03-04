@@ -1,0 +1,40 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-buntywp-author-card {
+	text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.card-grid {
+    display: grid;
+    gap: 16px;
+}
+
+.columns-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.columns-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.columns-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.columns-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.columns-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.columns-6 {
+    grid-template-columns: repeat(6, 1fr);
+}

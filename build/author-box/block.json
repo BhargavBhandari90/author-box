@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "buntywp/author-box",
+  "version": "0.1.0",
+  "title": "Author Box",
+  "category": "widgets",
+  "icon": "screenoptions",
+  "description": "Example block scaffolded with Create Block tool.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "shadow": true,
+    "spacing": {
+      "padding": true,
+      "margin": true
+    },
+    "color": {
+      "background": true,
+      "text": true,
+      "border": false
+    },
+    "__experimentalBorder": {
+      "radius": true,
+      "color": true,
+      "width": true,
+      "style": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true
+      }
+    }
+  },
+  "attributes": {
+    "style": {
+      "type": "object",
+      "default": {
+        "aspectRatio": "16/9"
+      }
+    },
+    "columns": {
+      "type": "number",
+      "default": 3
+    }
+  },
+  "allowedBlocks": [
+    "buntywp/author-card"
+  ],
+  "textdomain": "author-box",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

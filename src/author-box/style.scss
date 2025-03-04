@@ -1,0 +1,36 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.card-grid {
+    display: grid;
+    gap: 16px;
+    background: transparent;
+}
+
+.columns-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.columns-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.columns-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.columns-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.columns-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.columns-6 {
+    grid-template-columns: repeat(6, 1fr);
+}

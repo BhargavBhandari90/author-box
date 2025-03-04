@@ -1,0 +1,29 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-buntywp-author-card {
+	transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+}
+
+// .wp-block-buntywp-author-card img {
+// 	transition: transform 0.3s ease;
+// }
+
+.bwp-author-image {
+    border-radius: 50%;
+}
+
+.wp-block-buntywp-author-card:hover {
+	transform: scale(1.05);
+    opacity: 0.9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.wp-block-buntywp-author-card img {
+	display: inline-table;
+	max-width: 100%;
+}
